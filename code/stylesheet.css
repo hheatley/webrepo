@@ -8,13 +8,14 @@
     padding-right: 100px;
 }
 .navbar-brand {
+    color: darkgrey;
     font-size: 25px;
-    font-family: Book Antiqua;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background: aqua;
 }
 .navbar li a {
-    font-family: Book Antiqua;
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
     color: darkgrey;
   }
@@ -24,19 +25,19 @@
 }
 .container h1 {
     color:  teal;
-    font-family: Book Antiqua;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 10px;
 }
 .container h2 {
-    color:  teal;
+    color:  darkgrey;
     padding-top: 30px;
     padding-left: 20px;
-    font-family: Book Antiqua;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 .container p {
-    display: block;
+    display: inline-block;
     padding: 10px;
     line-height: 2.2;
     padding-left: 20px;
@@ -44,13 +45,12 @@
     color: darkgrey);
 }
 .container img {
-    display: inline;
-    margin: 10px 10px;
+    display: block;
+    margin: auto;
     border: 1px solid #ddd;
     border-radius: 4px;
     max-width: 100%;
     height: auto;
-    align-content: center;
 }     
 .container img:hover{
     box-shadow: 0 0 2px 1px teal;
@@ -58,7 +58,7 @@
 .container h3 {
     color:  darkgrey;
     text-align: center;
-    font-family: Book Antiqua;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 .row {
@@ -77,30 +77,12 @@
 .panel {
     border: 1px solid darkgrey;
 }
-#maintable {  
-    width: 100%;
-    border-collapse: collapse; 
-    border-spacing: 40px;
-    padding: 50px;
-}
-#maintable td, th { 
-    border: 1px solid #CCC; 
-    text-align:  center;
-}  
-#maintable th {  
-    background: #F3F3F3; /* Light grey background */
-    font-weight: bold; /* Make sure they're bold */
-}
-#maintable td {  
-    background: #FAFAFA; /* Lighter grey background */
-    text-align: center; /* Center our text */
-}
-
 .boxx {
     border: solid rgb(15, 168, 168);
-
 }
-
+.table-striped {
+    background-color:lightgray;
+}
 
 
 
